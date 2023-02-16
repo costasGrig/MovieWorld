@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: 15px;
+    padding: 10px;
+}
+
+ul{
+    display: inline;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+.logo{
+    font-size:x-large;
+}
+
+.login{
+    padding: 5px 0;
+    margin: 0 5px;
+}
+.login a{
+    color: #2e5acb;
+}
+
+.signup{padding: 5px 10px;
+    margin: 0px 5px;
+    background-color: #2e5acb;
+    color: #f9f9f9;
+    border-radius: 15px;
+}
+
+.rightfloat{
+    float: right;
+}
+
+li.signup {
+    border: 1px solid black;
+}
+
+.seperator{
+    padding: 5px 8px 0 4px;
+}
+
+.count{
+    padding-left: 10px;
+    margin: 10px 15px;
+}
+
+.userpost{
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0px 5px 5px;
+    width: 87%;
+}
+
+.usersection{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0px 5px 5px;
+}
+
+.filter{
+    background-color: #e9e6e9;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 120px;
+    height: 135px;
+    margin: 5px 0;
+    padding: 5px 0 0 0;
+    color: #2e5acb;
+}
+
+.filterstyle{
+    border-top: 2px solid rgb(115, 7, 119);
+    margin: 2px 10px;
+    padding: 4px 2px;
+    text-align: center;
+}
+
+.filter h3 {
+    color: black;
+}
+
+.center{
+    text-align: center;
+}
+
+.userpost span b{
+ color: #2e5acb;  
+}
+
+.lowerdivision{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    margin: 0 16px;
+}
+
+aside{
+    margin: 5px 2px;
+    padding: 15px 2px;
+}
+
+.new_button{
+    background-color: #06f319;
+    border-radius: 8px;
+    border: 3px solid black;
+    padding: 7px 0;
+    margin: 0;
+}
+
+.user-name{
+    color: #2e5acb;
+}
+
+.preference-button{
+    color: #2e5acb;
+    background-color: #fff;
+    padding: 2px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.preference{
+    background-color: #2e5acb;
+    border-radius: 12px;
+    color: #f9f9f9;
+}
+
+.preference-area{
+    display: flex;
+}
+
+.like-color{
+    color: #06f319;
+}
+
+.hate-color{
+    color:#f30606;
+}
+
+.sorting-button{
+    color: #2e5acb;
+    background-color: #e9e6e9;
+    padding: 2px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.no-border{
+    border: none;
+}
+
+.filter form button{
+    border: none;
+    background-color: #e9e6e9;
+    color: #2e5acb;
+    cursor: pointer;
+}

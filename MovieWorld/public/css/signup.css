@@ -1,0 +1,38 @@
+body{
+    margin: 5px;
+}
+
+main{
+    display: table-caption;
+}
+
+.space{
+    margin: 5px;
+    text-align: center;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.sub-b{
+    margin: 2px 1px;
+    padding: 3px 7px;
+    border: black;
+    border-radius: 8px;
+    background-color: #2e5acb;
+    color: #f9f9f9;
+}
+
+input{
+    border-radius: 6px;
+}
+
+textarea{
+    border-radius: 6px;
+    width: 200px;
+    height: 50px;
+}
+
+
+
